@@ -1,0 +1,21 @@
+div.header {
+  background-color: orange;
+  color: white;
+  font-family: bold; }
+
+ul.navbar-nav {
+  background-color: grey; }
+
+img.src {
+  max-width: 50;
+  height: 50; }
+
+ul.box-horizontal li.active {
+  background: green;
+  margin: 5px; }
+
+ul.box-vertical {
+  background: orange;
+  margin: 5px; }
+
+/*# sourceMappingURL=index.css.map */
