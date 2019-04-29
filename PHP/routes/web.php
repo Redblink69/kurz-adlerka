@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/',"Controller@home");
+Route::get('/',"Controller@index");
 
 Route::get('/Site1', function () {
     return view('responsivita2');
@@ -20,3 +20,8 @@ Route::get('/Site1', function () {
 Route::get('/Site2', function () {
     return view('responsivita3');
 });
+
+
+Route::get('/login', "controller@login");
+
+Route::get('/logout', "controller@logout");
