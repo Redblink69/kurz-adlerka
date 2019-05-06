@@ -34,6 +34,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/logout">Logout {{$name}}</a>
           </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cart">Shopping cart</a>
+            </li>
           @else
           <li class="nav-item">
             <a class="nav-link" href="/login">Login</a>
@@ -77,7 +80,7 @@
                 </p>
               </div>
               <div class="card-footer">
-                <a class="btn btn-primary" role="button" href="#">Add to cart</a>
+                <a class="btn btn-primary" role="button" href="/add/{{$p->id}}">Add to cart</a>
               </div>
             </div>
           </div>

@@ -25,3 +25,7 @@ Route::get('/Site2', function () {
 Route::get('/login', "controller@login");
 
 Route::get('/logout', "controller@logout");
+
+Route::get('/cart',"Controller@cart");
+
+Route::get('/add/{id}',"Controller@add");
